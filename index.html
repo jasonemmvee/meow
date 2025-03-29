@@ -20,6 +20,12 @@
             height: auto;
             border-radius: 15px; /* Rounded corners */
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for style */
+            
+            /* Mobile-specific styles */
+        @media screen and (max-width: 1180px) {
+            .image-container img {
+                max-width: 100%; /* Shrink to fit screen for mobile */
+            }
         }
     </style>
 </head>
